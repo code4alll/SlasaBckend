@@ -35,7 +35,7 @@ public class UserController {
 		
 	}
 	
-	@GetMapping("/user/Login")
+	@PostMapping("/user/Login")
 	private  ResponseEntity<?> LoginUser (@RequestBody LoginDto user){
 		LoginResponse response=userService.LoginData(user,Roles.USER);
 		Response<?> res=new Response<>();
