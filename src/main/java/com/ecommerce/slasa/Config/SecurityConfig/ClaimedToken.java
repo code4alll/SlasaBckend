@@ -23,6 +23,10 @@ public class ClaimedToken {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public ClaimedToken() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 
